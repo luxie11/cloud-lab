@@ -22,7 +22,6 @@ func server() {
 	logger := log.New(os.Stdout, "[api] ", log.Ltime)
 	r := mux.NewRouter()
 	r.HandleFunc("/username", controller.GithubUsernameHandler).Methods("GET")
-	//r.HandleFunc("/luxie11", controller.Sha256Handler).Methods("GET")
 	// TODO. Add a handler here which will use controller.Sha256Handler function for HTTP "GET" method. Use curly brackets for path matching, like this: /{username}
 
 	// serve static files - DO NOT CHANGE THIS!
