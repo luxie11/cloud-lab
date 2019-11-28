@@ -5,5 +5,5 @@ go 1.12
 require (
 	github.com/gorilla/mux v1.7.3
 	github.com/spf13/cobra v0.0.5
-	github.com/tcentric/cloud-lab v0.0.0-20191128070456-12ecccafa4db // indirect
+	github.com/tcentric/cloud-lab v0.0.0-20191128070456-12ecccafa4db
 )
